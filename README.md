@@ -56,6 +56,7 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 - [openclaw-code-agent](https://github.com/goldmar/openclaw-code-agent) - Runs Claude Code, Codex and OpenCode as managed background sessions with plan approval, worktree isolation and merge/PR follow-through.
 - [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay) - Exposes bounded local Claude Code, Codex, or automation capabilities to teammates and agents over a trusted LAN.
 - [fractal](https://github.com/plasma-ai/fractal) - Runs hierarchical coding-agent loops in per-node Git worktrees, with recursive child delegation, SQLite-backed run state, and configurable limits on iterations, depth, children, time, and cost.
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding-agent loops: task start opens a dedicated branch and worktree per task, edits and tests happen there, and a risk-based merge queue verifies and lands each change with receipts stored in the repository.
 
 ## Scheduling & Triggers
 
