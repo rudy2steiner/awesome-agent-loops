@@ -69,6 +69,7 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 
 ## Verification & Guardrails
 
+- [Agent QA](https://github.com/vostride/agent-qa) - Natural-language web and mobile application tests with CLI/MCP run results and artifacts for verification steps in coding-agent loops; source-available under FSL-1.1-ALv2.
 - Test suites as verify steps - The strongest signal: exit 0 or loop again.
 - Second-model judges - A separate model evaluating "is the goal met?" to avoid self-grading.
 - Diff budgets & change caps - Bounding how much a single cycle is allowed to touch.
