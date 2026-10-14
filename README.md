@@ -57,6 +57,7 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 - [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay) - Exposes bounded local Claude Code, Codex, or automation capabilities to teammates and agents over a trusted LAN.
 - [fractal](https://github.com/plasma-ai/fractal) - Runs hierarchical coding-agent loops in per-node Git worktrees, with recursive child delegation, SQLite-backed run state, and configurable limits on iterations, depth, children, time, and cost.
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding-agent loops: task start opens a dedicated branch and worktree per task, edits and tests happen there, and a risk-based merge queue verifies and lands each change with receipts stored in the repository.
+- [Orbi](https://github.com/orbi-build/orbi) - Issue-to-release loop on a systemd or launchd timer: picks up GitHub Issues labeled `ai-ready`, codes in an isolated worktree, opens a PR, has a separate review session check it against the issue's acceptance criteria, sends findings back for another round, and merges and tags a release only after the review passes.
 
 ## Scheduling & Triggers
 
