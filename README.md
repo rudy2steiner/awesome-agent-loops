@@ -79,6 +79,7 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 ## State & Memory
 
 - Markdown state files - A `state.md` the loop reads and rewrites each cycle; agents forget, the repo doesn't.
+- [deed.page](https://deed.page) - Hosted publish step for loop output: each cycle the agent PUTs its report or dashboard HTML to the same HTTPS link over HTTP or a remote MCP server, with version history and restore.
 - Issue/board-backed state - Linear, GitHub Projects or a plain table as the loop's queue and memory.
 
 ## Cost Control
